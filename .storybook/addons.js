@@ -1,0 +1,3 @@
+// .storybook/addons.js
+import "@storybook/addon-actions/register";
+import "@storybook/addon-knobs";
