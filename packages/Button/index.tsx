@@ -18,3 +18,8 @@ const Button = ({ label, onClick }: IButtonProps) => {
 };
 
 export default Button;
+
+Button.defaultProps = {
+  label: "button",
+  onClick: void 0
+};

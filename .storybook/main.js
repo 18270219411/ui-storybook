@@ -6,11 +6,11 @@ module.exports = {
   stories: [
     "../packages/**/*.stories.*"
     // {
-    //   // 👇 The directory field sets the directory your stories
+    // 👇 The directory field sets the directory your stories
     //   directory: "../packages",
-    //   // 👇 The titlePrefix field will generate automatic titles for your stories
+    // 👇 The titlePrefix field will generate automatic titles for your stories
     //   titlePrefix: "index",
-    //   // 👇 Storybook will load all files that contain the stories extension
+    // 👇 Storybook will load all files that contain the stories extension
     //   files: "*.stories.*"
     // }
   ],
@@ -34,5 +34,7 @@ module.exports = {
 
     return config;
   },
-  feature: {}
+  features: {
+    // storyStoreV7: true // storybook version >= 6.4
+  }
 };
