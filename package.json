@@ -14,7 +14,7 @@
     "_____comment": "npm run git -- 'commit-msg'  so you can push and update by a auto way",
     "git": "git add . && git commit -m",
     "postgit": "npm run build && npm version patch && npm publish && git push",
-    "sb": "start-storybook -p 6006",
+    "start": "start-storybook -p 6006",
     "build": "rimraf build/* && rollup -c",
     "build:sb": "build-storybook -c .storybook -o docs",
     "test": "echo \"Error: no test specified\" && exit 1"
